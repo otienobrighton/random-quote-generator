@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+.body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(69, 57, 57);
+  overflow-x: hidden;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  padding-right: 1.5rem;
+  background-color: #fff;
+}
+.header .logo h2{
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 1.5rem;
+  
+}
+.header .account a{
+  text-decoration: none;
+  margin-right: 1.5rem;
+  height: 35px;
+  width: 10vw;
+  color: black;
+  transition: 0.4s;
+}
+.header .account a:hover{
+  border-bottom: 2px solid black;
+}
+/*------the navigation section------*/
+nav{
+  background-color: rgb(142, 2, 2);
+  height: 45px;
+  align-items: center;
+}
+nav ul{
+  padding-top: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-right: 1.5rem;
+  margin-left: 2rem;
+}
+nav ul li{
+  border-left: 4px solid white;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 5px;
+  text-transform: capitalize;
+}
+/*------the posts section------*/
+.psts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  padding-top: 2rem;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-size: 20px 20px;
+  background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 1px, #e5e5f7 1px, #e5e5f7);
+}
+.posts {
+  background-color: rgb(42, 3, 3);
+  height: 100%;
+  width: 60%;
+  border: none;
+  border-radius: 20px;
+  padding: auto;
+}
+.posts p{
+  color: #c1bcbc;
+  margin-left: 1.5rem;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+.posts h2{
+  color: #fff;
+  font-weight: 800;
+  font-size: 25px;
+  margin-left: 1.5rem;
+}
+.posts button{
+  height: 40px;
+  width: 20vw;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 900;
+  color: rgb(142, 2, 2);
+  position: absolute;
+  bottom: 3rem;
+  left: 40%;
+  animation: 0.4s ease-in-out;
+}
+.posts button:hover{
+  width: 22vw;
+}
+.posts img{
+  text-align: center;
+  width: auto;
+  height: 350px;
+  object-fit: cover;
+  margin-left: 13rem;
+}
